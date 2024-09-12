@@ -8,6 +8,7 @@ const Channel = Loadable(lazy(() => import('views/Channel')));
 const Log = Loadable(lazy(() => import('views/Log')));
 const Redemption = Loadable(lazy(() => import('views/Redemption')));
 const Setting = Loadable(lazy(() => import('views/Setting')));
+const Chat = Loadable(lazy(() => import('views/Chat')));
 const Token = Loadable(lazy(() => import('views/Token')));
 const Topup = Loadable(lazy(() => import('views/Topup')));
 const User = Loadable(lazy(() => import('views/User')));
@@ -46,6 +47,10 @@ const MainRoutes = {
     {
       path: 'setting',
       element: <Setting />
+    },
+    {
+      path: 'chat',
+      element: <Chat />
     },
     {
       path: 'token',

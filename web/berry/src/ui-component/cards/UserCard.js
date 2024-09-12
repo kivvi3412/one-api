@@ -33,7 +33,7 @@ import { alpha } from '@mui/material/styles';
 import Card from '@mui/material/Card';
 import shapeAvatar from 'assets/images/icons/shape-avatar.svg';
 import coverAvatar from 'assets/images/invite/cover.jpg';
-import userAvatar from 'assets/images/users/user-round.svg';
+import userAvatar from 'assets/images/users/user-round.png';
 import SvgColor from 'ui-component/SvgColor';
 
 import React from 'react';
