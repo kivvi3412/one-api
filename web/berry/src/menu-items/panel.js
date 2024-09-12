@@ -40,7 +40,7 @@ const panel = {
     },
     {
       id: 'token',
-      title: '令牌',
+      title: '聊天',
       type: 'item',
       url: '/panel/token',
       icon: icons.IconKey,
