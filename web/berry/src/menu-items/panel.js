@@ -8,11 +8,23 @@ import {
   IconKey,
   IconGardenCart,
   IconUser,
-  IconUserScan
+  IconUserScan, IconMessageChatbot, IconFileTypeDocx
 } from '@tabler/icons-react';
 
 // constant
-const icons = { IconDashboard, IconSitemap, IconArticle, IconCoin, IconAdjustments, IconKey, IconGardenCart, IconUser, IconUserScan };
+const icons = {
+  IconDashboard,
+  IconSitemap,
+  IconArticle,
+  IconCoin,
+  IconAdjustments,
+  IconFileTypeDocx,
+  IconKey,
+  IconMessageChatbot,
+  IconGardenCart,
+  IconUser,
+  IconUserScan
+};
 
 // ==============================|| DASHBOARD MENU ITEMS ||============================== //
 
@@ -39,8 +51,24 @@ const panel = {
       isAdmin: true
     },
     {
-      id: 'token',
+      id: 'chat',
       title: '聊天',
+      type: 'item',
+      url: '/panel/chat',
+      icon: icons.IconMessageChatbot,
+      breadcrumbs: false
+    },
+    {
+      id: 'document',
+      title: '价格/教程',
+      type: 'item',
+      url: '/about',
+      icon: icons.IconFileTypeDocx,
+      breadcrumbs: false
+    },
+    {
+      id: 'token',
+      title: '令牌',
       type: 'item',
       url: '/panel/token',
       icon: icons.IconKey,
